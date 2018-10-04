@@ -27,7 +27,7 @@
 
 @media screen and (max-width: 300px) {
   .title-content {
-    top: 30px;
+    top: 5vw;
   }
 
   .intro {
@@ -747,7 +747,7 @@ p > img:not(.emoji), li > img {
 /*Card settings*/
 .blog-card {
   position: relative;
-  margin-bottom: 1rem;
+  margin-bottom: 1em;
   margin-right: 0.5em;
   margin-left: 0.5em;
   float: none;
@@ -782,8 +782,8 @@ p > img:not(.emoji), li > img {
   z-index: 2;
   width: 100%;
   -webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  transition: all 0.4s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .card.title-content {
